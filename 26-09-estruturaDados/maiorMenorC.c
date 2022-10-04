@@ -5,7 +5,7 @@ int main(){
     int i;
     float n[5];
     float auxMaior = 0;
-    float auxMenor = 11;
+    float auxMenor = 0;
 
     for(i=0;i<5;i++){
         printf("Digite a %ia nota: ", i+1);
@@ -13,7 +13,11 @@ int main(){
         if(n[i]>= auxMaior){
             auxMaior = n[i];
         }
-        if(n[i] <= auxMenor){
+        
+    }
+    auxMenor = n[1];
+    for(i=0; i<5;i++){
+        if(n[i]<=auxMenor){
             auxMenor = n[i];
         }
     }
