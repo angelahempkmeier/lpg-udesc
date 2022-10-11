@@ -10,3 +10,6 @@ métodos:
 
 capitalize: coloca a primeira letra em maiusculo
 casefold: coloca em minusculo toda a string
+endswith: retorna booleano
+split: quebra usando como param o que eu quiser (espaco, virgula, etc)
+ 
