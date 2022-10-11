@@ -1,0 +1,12 @@
+STRINGS
+
+Tipos:
+- unica linha ' ' ou " "
+- multiplas linhas """ """
+
+Pra comparar, pode utilizar == pra comparar duas strings em python, nos bastidores tem o método equals 
+
+métodos:
+
+capitalize: coloca a primeira letra em maiusculo
+casefold: coloca em minusculo toda a string

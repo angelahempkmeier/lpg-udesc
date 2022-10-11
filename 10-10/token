@@ -1,0 +1,63 @@
+Listas
+Tuplas - lista que nao pode ser mopdificada
+Conjuntos 
+
+
+
+DICIONÁRIOS
+
+json: formato de arquivo que tem dentro dele dicionarios e listas.
+em python: key, value
+dicionario vazio: dict()
+
+atribuindo valores:
+capitais = {'RS':'Porto Alegre',
+	'SC':'Florianópolis',
+	'PR':'Curitiba'}
+
+para encontrar:
+print(capitais['RS]) //Porto Alegre
+
+capitais.keys() //devolve as chaves
+
+
+for estado in capitais.keys():
+	print(f'A capital de {estado} é {capitais[estado]}') 
+	
+
+para retornar os values: capitais.values()
+transforma numa estrutura iteravel: capital.items() //('RS', 'PORTO ALEGRE')
+	dai assim: 	
+	for estado, capital in capital.items():
+get: capital.get('SP', 'não encontrado')
+
+for estado in  capital.keys():
+	capital[estado] = capital[estado].upper()
+print(capital) //tudo maiusculo
+
+
+dados = {
+    'RS':{
+        'capital':'PORTO ALEGRE',
+        'populacao':11466630
+    },
+    'SC':{
+        'capital':'FLORIANOPOLIS',
+        'populacao':7338473
+    },
+    'PR':{
+        'capital':'CURITIBA',
+        'populacao': 11597484
+    }
+}
+
+for estado in dados.keys():
+    print(dados[estado])
+
+for estado in dados.keys():
+    print(f'A populacao de {estado} é {dados[estado]["populacao"]}')
+
+
+
+
+
