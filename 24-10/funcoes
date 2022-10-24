@@ -1,0 +1,16 @@
+FUNCOES
+gcc -o notasAlunos notasAlunos.c
+./notasAlunos
+
+C:
+	tipo_retorno nome_funcao(argumentos){ // código //return }
+	
+	float media(float a, float b){
+		float media;
+		media = (a+b)/2.0;
+		return media;
+	}
+	
+Py:
+	
+	
