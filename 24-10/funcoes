@@ -14,4 +14,15 @@ C:
 Py:
 	def nome(param):
 		//codigo return
+		
+
+STRUCT:
+	
+	typedef struct aluno{
+		int id;
+		char nome[40];
+	};
+	
+	aluno al1;
+	al1.id = 10;
 	
