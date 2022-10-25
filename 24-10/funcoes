@@ -26,3 +26,5 @@ STRUCT:
 	aluno al1;
 	al1.id = 10;
 	
+	aluno al[10]; //criando 10 alunos
+	
