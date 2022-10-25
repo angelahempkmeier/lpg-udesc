@@ -12,5 +12,6 @@ C:
 	}
 	
 Py:
-	
+	def nome(param):
+		//codigo return
 	
