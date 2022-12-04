@@ -1,0 +1,43 @@
+Funções
+
+Mostrar Menu
+[1] Aluno
+	[1] Cadastrar
+	[2] Consultar
+	[3] Excluir
+	[4] Alterar
+	[5] Relatório
+	[6] Voltar
+[2] Notas
+	[1] Incluir nota
+	[2] Alterar nota
+	[3] Excluir nota
+	[4] Consultar
+	[5] Voltar
+[3] Relatório
+	[1] Relatório Notas
+	[2] Relatório Médias
+	[3] Voltar
+[4] Sair  
+	
+
+Cabe 10 alunos
+Cabe 3 notas
+Alunos
+int id_aluno
+char nome_aluno[50]
+
+
+
+EM PYTHON
+Dois arquivos CSV
+id;nome_aluno;
+
+id_aluno;id_nota; nota
+
+import pandas as pd
+aluno = pd.read.csv(alunos)
+notas = pd.read.csv(notas)
+
+FINAL GRAVAR EXCEL
+nota 1 nota 2 nota 3 media situacao final
